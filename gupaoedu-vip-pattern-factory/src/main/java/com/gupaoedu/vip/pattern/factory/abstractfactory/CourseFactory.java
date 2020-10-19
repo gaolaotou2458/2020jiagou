@@ -6,6 +6,7 @@ package com.gupaoedu.vip.pattern.factory.abstractfactory;
  * 易于扩展
  * Created by Tom.
  */
+//抽象工厂不符合开闭原则，但是易于扩展
 public interface CourseFactory {
 
     INote createNote();
