@@ -56,5 +56,13 @@ public class QiTianDaSheng extends Monkey implements Cloneable,Serializable {
         return  qiTianDaSheng;
     }
 
-
+    @Override
+    public String toString() {
+        return "QiTianDaSheng{" +
+                "jinGuBang=" + jinGuBang +
+                ", height=" + height +
+                ", weight=" + weight +
+                ", birthday=" + birthday +
+                '}';
+    }
 }

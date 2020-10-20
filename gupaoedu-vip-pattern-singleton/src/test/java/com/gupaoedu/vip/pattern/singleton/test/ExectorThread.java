@@ -9,8 +9,8 @@ import com.gupaoedu.vip.pattern.singleton.threadlocal.ThreadLocalSingleton;
 public class ExectorThread implements Runnable{
     @Override
     public void run() {
-        LazySimpleSingleton singleton = LazySimpleSingleton.getInstance();
-//        ThreadLocalSingleton singleton = ThreadLocalSingleton.getInstance();
+        //LazySimpleSingleton singleton = LazySimpleSingleton.getInstance();
+        ThreadLocalSingleton singleton = ThreadLocalSingleton.getInstance();
         System.out.println(Thread.currentThread().getName() + ":" + singleton);
     }
 }
