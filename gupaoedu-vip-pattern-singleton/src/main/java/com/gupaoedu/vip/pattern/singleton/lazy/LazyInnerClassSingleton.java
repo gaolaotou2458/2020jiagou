@@ -4,6 +4,8 @@ package com.gupaoedu.vip.pattern.singleton.lazy;
  * Created by Tom.
  */
 
+//最牛逼的：静态内部类
+
 //懒汉式单例
 
 

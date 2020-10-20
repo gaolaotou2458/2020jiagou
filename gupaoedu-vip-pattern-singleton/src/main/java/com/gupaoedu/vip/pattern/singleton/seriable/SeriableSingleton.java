@@ -25,6 +25,7 @@ public class SeriableSingleton implements Serializable {
         return INSTANCE;
     }
 
+    //防止序列化破解单例模式
     private  Object readResolve(){
         return  INSTANCE;
     }

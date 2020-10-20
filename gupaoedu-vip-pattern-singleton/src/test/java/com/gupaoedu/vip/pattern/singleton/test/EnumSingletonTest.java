@@ -46,7 +46,13 @@ public class EnumSingletonTest {
             Constructor c = clazz.getDeclaredConstructor(String.class,int.class);
             c.setAccessible(true);
             EnumSingleton enumSingleton = (EnumSingleton)c.newInstance("Tom",666);
-
+            //从JDK层面就为枚举不被序列化和反射破坏来保驾护航
+            //源码
+            /**
+             *  if ((clazz.getModifiers() & Modifier.ENUM) != 0)
+             *     throw new IllegalArgumentException("Cannot reflectively create enum objects");
+             *  ConstructorAccessor ca = constructorAccessor;   // read volatile
+             */
         }catch (Exception e){
             e.printStackTrace();
         }

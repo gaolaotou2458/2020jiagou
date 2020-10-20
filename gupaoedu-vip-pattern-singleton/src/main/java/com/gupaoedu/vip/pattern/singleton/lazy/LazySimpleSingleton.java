@@ -11,6 +11,7 @@ public class LazySimpleSingleton {
     //静态块，公共内存区域
     private static LazySimpleSingleton lazy = null;
     public synchronized static LazySimpleSingleton getInstance(){
+    //public  static LazySimpleSingleton getInstance(){
         if(lazy == null){
             lazy = new LazySimpleSingleton();
         }
