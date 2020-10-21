@@ -18,6 +18,8 @@ public class Order {
     }
 
     public Long getCreateTime() {
+
+        System.out.println("order getCreateTime()");
         return createTime;
     }
 

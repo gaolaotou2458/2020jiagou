@@ -8,20 +8,24 @@ import java.lang.reflect.Method;
 
 /**
  * Created by Tom on 2019/3/11.
+ * cglib动态代理
  */
-public class CGlibMeipo implements MethodInterceptor {
+class CGlibMeipo implements MethodInterceptor {
 
 
     public Object getInstance(Class<?> clazz) throws Exception{
         //相当于Proxy，代理的工具类
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(clazz);
+        //回调 intercept
         enhancer.setCallback(this);
         return enhancer.create();
     }
 
+
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         before();
+        //生成的类是子类，子类增强时，调用父类逻辑
         Object obj = methodProxy.invokeSuper(o,objects);
         after();
         return obj;
