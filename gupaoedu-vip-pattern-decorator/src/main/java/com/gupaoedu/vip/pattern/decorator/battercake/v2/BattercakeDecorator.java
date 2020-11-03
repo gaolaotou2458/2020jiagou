@@ -1,7 +1,7 @@
 package com.gupaoedu.vip.pattern.decorator.battercake.v2;
 
 /**
- * Created by Tom on 2019/3/17.
+ * 2.建一个扩展套餐的抽象装饰者 BattercakeDecotator类.
  */
 public abstract class BattercakeDecorator extends Battercake {
 

@@ -5,5 +5,6 @@ package com.gupaoedu.vip.pattern.strategy.promotion;
  * Created by Tom
  */
 public interface PromotionStrategy {
+    //优惠
     void doPromotion();
 }

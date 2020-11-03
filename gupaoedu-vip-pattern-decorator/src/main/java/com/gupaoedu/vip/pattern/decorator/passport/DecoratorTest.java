@@ -19,6 +19,7 @@ public class DecoratorTest {
         ISiginForThirdService siginForThirdService = new SiginForThirdService(new SigninService());
         siginForThirdService.loginForQQ("sdfasfdasfsf");
 
+
     }
 
 

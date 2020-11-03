@@ -61,4 +61,9 @@ public class EventLisenter {
         return String.valueOf(chars);
     }
 
+    public static void main(String[] args) {
+        String abcccc = new EventLisenter().toUpperFirstCase("abcccc");
+        System.out.println(abcccc);
+    }
+
 }

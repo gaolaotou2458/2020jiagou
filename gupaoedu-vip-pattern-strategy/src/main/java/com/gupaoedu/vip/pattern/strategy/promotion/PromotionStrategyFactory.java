@@ -13,6 +13,7 @@ public class PromotionStrategyFactory {
         PROMOTION_STRATEGY_MAP.put(PromotionKey.COUPON,new CouponStrategy());
         PROMOTION_STRATEGY_MAP.put(PromotionKey.CASHBACK,new CashbackStrategy());
         PROMOTION_STRATEGY_MAP.put(PromotionKey.GROUPBUY,new GroupbuyStrategy());
+        PROMOTION_STRATEGY_MAP.put(PromotionKey.SHUNANG11,new DoubleOneStrategy());
     }
 
     private static final PromotionStrategy NON_PROMOTION = new EmptyStrategy();
@@ -28,6 +29,7 @@ public class PromotionStrategyFactory {
         String COUPON = "COUPON";
         String CASHBACK = "CASHBACK";
         String GROUPBUY = "GROUPBUY";
+        String SHUNANG11 = "SHUNANG11";
     }
 
 

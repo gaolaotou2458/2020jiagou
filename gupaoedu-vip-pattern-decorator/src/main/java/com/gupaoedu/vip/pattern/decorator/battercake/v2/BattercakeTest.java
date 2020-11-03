@@ -20,7 +20,7 @@ public class BattercakeTest {
         battercake = new SausageDecorator(battercake);
         battercake = new SausageDecorator(battercake);
 
-
+        battercake = new EggDecorator(battercake);
         //跟静态代理最大区别就是职责不同
         //静态代理不一定要满足is-a的关系
         //静态代理会做功能增强，同一个职责变得不一样

@@ -3,6 +3,7 @@ package com.gupaoedu.vip.pattern.template.jdbc.dao;
 import com.gupaoedu.vip.pattern.template.jdbc.JdbcTemplate;
 import com.gupaoedu.vip.pattern.template.jdbc.Member;
 import com.gupaoedu.vip.pattern.template.jdbc.RowMapper;
+import org.apache.ibatis.executor.BaseExecutor;
 
 import javax.sql.DataSource;
 import java.sql.ResultSet;

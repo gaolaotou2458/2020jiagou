@@ -3,6 +3,9 @@ package com.gupaoedu.vip.pattern.strategy.pay;
 import com.gupaoedu.vip.pattern.strategy.pay.payport.PayStrategy;
 import com.gupaoedu.vip.pattern.strategy.pay.payport.Payment;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * Created by Tom.
  */
@@ -28,5 +31,6 @@ public class Order {
         System.out.println("欢迎使用" + payment.getName());
         System.out.println("本次交易金额为：" + amount + "，开始扣款...");
         return payment.pay(uid,amount);
+
     }
 }

@@ -8,7 +8,9 @@ import java.util.Map;
  */
 public class Leader implements IEmployee {
 
+    //预先知道每个员工的特长、特征、分发任务
     private Map<String,IEmployee> targets = new HashMap<String,IEmployee>();
+
 
     public Leader() {
         targets.put("加密",new EmployeeA());

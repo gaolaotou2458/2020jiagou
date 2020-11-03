@@ -7,13 +7,13 @@ import org.apache.commons.lang3.StringUtils;
  * Created by Tom
  */
 public class PromotionActivityTest {
-    public static void main(String[] args) {
-        PromotionActivity activity618 = new PromotionActivity(new CouponStrategy());
-        PromotionActivity activity1111 = new PromotionActivity(new CashbackStrategy());
-
-        activity618.execute();
-        activity1111.execute();
-    }
+//    public static void main(String[] args) {
+//        PromotionActivity activity618 = new PromotionActivity(new CouponStrategy());
+//        PromotionActivity activity1111 = new PromotionActivity(new CashbackStrategy());
+//
+//        activity618.execute();
+//        activity1111.execute();
+//    }
 
 //    public static void main(String[] args) {
 //        PromotionActivity promotionActivity = null;
@@ -29,10 +29,10 @@ public class PromotionActivityTest {
 //    }
 
 
-//    public static void main(String[] args) {
-//        String promotionKey = "GROUPBUY";
-//        PromotionActivity promotionActivity = new PromotionActivity(PromotionStrategyFactory.getPromotionStrategy(promotionKey));
-//        promotionActivity.execute();
-//    }
+    public static void main(String[] args) {
+        String promotionKey = "SHUNANG11";
+        PromotionActivity promotionActivity = new PromotionActivity(PromotionStrategyFactory.getPromotionStrategy(promotionKey));
+        promotionActivity.execute();
+    }
 
 }
