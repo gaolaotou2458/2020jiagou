@@ -1,4 +1,4 @@
-package java.escape.nullpointdemo;
+package xxk.testes.demo;
 
 /**
  * 理解什么是空指针
@@ -43,7 +43,7 @@ public class WhatIsNpe {
 
         // 第五种情况，方法的返回值是Null，对象直接去使用
         User user = new User();
-        
+
 
 
     }

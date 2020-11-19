@@ -1,4 +1,4 @@
-package java.escape;
+package xxk.testes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

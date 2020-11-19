@@ -20,28 +20,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9133da1-5c68-4cfd-bbfe-6e41957fb636" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/DoubleOneStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/artifacts/gupaoedu_vip_pattern_delegate_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/artifacts/gupaoedu_vip_pattern_delegate_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/artifacts/gupaoedu_vip_pattern_delegate_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/artifacts/gupaoedu_vip_pattern_delegate_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_alibaba_fastjson_1_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_buffer_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_codec_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_common_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_handler_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_resolver_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_transport_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_8_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__io_projectreactor_reactor_test_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_session_spring_session_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_tx_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_web_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_webflux_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-spring/gupaoedu-vip-pattern-spring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/Leader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/Leader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/PayStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/PayStrategyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionStrategyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/pattern/strategy/pay/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/pattern/strategy/pay/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/pattern/strategy/pay/PayState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/pattern/strategy/pay/PayStrategyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/pattern/strategy/pay/PayStrategyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/pattern/strategy/pay/payport/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupaoedu/vip/pattern/strategy/pay/payport/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gupaoedu-vip-pattern-template/src/main/java/com/gupaoedu/vip/pattern/template/jdbc/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-template/src/main/java/com/gupaoedu/vip/pattern/template/jdbc/dao/MemberDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,6 +396,7 @@
       <workItem from="1552465402135" duration="3804000" />
       <workItem from="1603331576898" duration="10743000" />
       <workItem from="1604041160936" duration="6000" />
+      <workItem from="1605158302603" duration="1886000" />
     </task>
     <servers />
   </component>
@@ -343,6 +425,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="694" y="386" width="534" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605161245245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="386" width="534" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1605161245245" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1603345600170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

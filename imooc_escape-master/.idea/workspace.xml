@@ -1,5 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b63d17f-842f-496a-b54b-df09a73a9991" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/imooc_escape-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/ForeachOptimize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/Foreachtimze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_escape/spring-escape/spring-escape.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-escape/src/main/java/xxk/testes/demo/UnboxingNpe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/IVoltage5V.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/IVoltage5V.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/Voltage220V.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/Voltage220V.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/VoltageAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/classadapter/VoltageAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/interfaceadapter/AbsAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/interfaceadapter/AbsAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/interfaceadapter/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/interfaceadapter/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/interfaceadapter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/interfaceadapter/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/interfaceadapter/Interface4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/interfaceadapter/Interface4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/IVoltage5V.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/IVoltage5V.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/Voltage220V.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/Voltage220V.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/VoltageAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/adapter/objectadapter/VoltageAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/FoldedPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/FoldedPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/UpRightPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/UpRightPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/Vivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/Vivo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/XiaoMi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/bridge/XiaoMi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/AbstractHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/AbstractHouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/CommonHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/CommonHouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/CommonHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/CommonHouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/HighBuilding.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/HighBuilding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/HouseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/HouseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/HouseDirector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/builder/improve/HouseDirector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/LightOffCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/LightOffCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/LightOnCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/LightOnCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/LightReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/LightReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/NoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/NoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/RemoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/RemoteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/TVOffCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/TVOffCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/TVOnCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/TVOnCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/TVReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/command/TVReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/College.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/College.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/OrganizationComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/OrganizationComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/composite/University.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Chocolate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Chocolate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/CoffeeBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/CoffeeBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/DeCaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/DeCaf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Decorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Decorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Drink.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Drink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Espresso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/LongBlack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/LongBlack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Milk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Milk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/ShortBlack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/ShortBlack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Soy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/decorator/Soy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/DVDPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/DVDPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/HomeTheaterFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/HomeTheaterFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Popcorn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Popcorn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Projector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Projector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Stereo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/Stereo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/TheaterLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/facade/TheaterLight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/AbsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/AbsFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/BJFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/BJFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/LDFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/LDFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/OrderPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/OrderPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/order/PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/BJCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/BJCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/BJPepperPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/BJPepperPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/LDCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/LDCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/LDPepperPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/LDPepperPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/absfactory/pizzastore/pizza/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/order/BJOrderPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/order/BJOrderPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/order/LDOrderPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/order/LDOrderPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/order/OrderPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/order/OrderPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/order/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/order/PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/BJCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/BJCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/BJPepperPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/BJPepperPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/LDCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/LDCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/LDPepperPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/LDPepperPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/factorymethod/pizzastore/pizza/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/order/OrderPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/order/OrderPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/order/OrderPizza2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/order/OrderPizza2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/order/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/order/PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/order/SimpleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/order/SimpleFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/pizza/CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/pizza/CheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/pizza/GreekPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/pizza/GreekPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/pizza/PepperPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/pizza/PepperPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/pizza/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/factory/simplefactory/pizzastore/pizza/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/ConcreteWebSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/ConcreteWebSite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/WebSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/WebSite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/WebSiteFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/flyweight/WebSiteFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/AddExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/AddExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/ClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/SubExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/SubExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/SymbolExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/SymbolExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/VarExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/interpreter/VarExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/College.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/College.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/ComputerCollege.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/ComputerCollege.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/ComputerCollegeIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/ComputerCollegeIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/InfoColleageIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/InfoColleageIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/InfoCollege.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/InfoCollege.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/OutPutImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/iterator/OutPutImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/Alarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/Alarm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/ClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/CoffeeMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/CoffeeMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/Colleague.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/Colleague.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/ConcreteMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/ConcreteMediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/Curtains.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/Curtains.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/Mediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/Mediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/TV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/mediator/smarthouse/TV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/game/Caretaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/game/Caretaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/game/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/game/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/game/GameRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/game/GameRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/game/Memento.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/game/Memento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/theory/Caretaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/theory/Caretaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/theory/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/theory/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/theory/Memento.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/theory/Memento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/theory/Originator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/memento/theory/Originator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/AbstractState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/AbstractState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/ClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/FeedBackState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/FeedBackState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/GenerateState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/GenerateState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/NotPayState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/NotPayState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/PaidState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/PaidState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/PublishState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/PublishState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/ReviewState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/ReviewState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/StateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/money/StateEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/CurrentConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/CurrentConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/BaiduSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/BaiduSite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/CurrentConditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/CurrentConditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/observer/improve/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/CollegeEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/CollegeEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/CollegeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/CollegeManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/Demeter1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/Demeter1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/SchoolManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/SchoolManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/CollegeEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/CollegeEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/CollegeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/CollegeManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/Demeter1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/Demeter1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/SchoolManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/demeter/improve/SchoolManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/DependecyInversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/DependecyInversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/Email.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/ChangHong.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/ChangHong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/DependecyInversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/DependecyInversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/DependencyPass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/DependencyPass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/Email.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/IOpenAndClose.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/IOpenAndClose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/IReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/IReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/ITV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/ITV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/OpenAndClose.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/OpenAndClose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/WeiXin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/inversion/improve/WeiXin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/Liskov.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/Liskov.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/improve/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/improve/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/improve/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/improve/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/improve/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/improve/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/improve/Liskov.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/liskov/improve/Liskov.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/GraphicEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/GraphicEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Ocp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Ocp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/GraphicEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/GraphicEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Ocp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Ocp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/OtherGraphic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/OtherGraphic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/ocp/improve/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/Interface1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/Interface1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/Segregation1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/Segregation1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/Interface1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/Interface1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/Interface2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/Interface2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/Interface3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/Interface3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/Segregation1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/segregation/improve/Segregation1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/AirVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/AirVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/RoadVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/RoadVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/SingleResponsibility1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/SingleResponsibility1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/SingleResponsibility2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/SingleResponsibility2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/SingleResponsibility3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/SingleResponsibility3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/Vehicle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/Vehicle2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/WaterVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/principle/singleresponsibility/WaterVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/Sheep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/Sheep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/deepclone/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/deepclone/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/deepclone/DeepCloneableTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/deepclone/DeepCloneableTarget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/deepclone/DeepProtoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/deepclone/DeepProtoType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/improve/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/improve/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/improve/Sheep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/prototype/improve/Sheep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/cglib/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/cglib/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/cglib/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/cglib/ProxyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/cglib/TeacherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/cglib/TeacherDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/ITeacherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/ITeacherDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/ProxyFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/ProxyFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/ProxyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/TeacherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/dynamic/TeacherDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/staticproxy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/staticproxy/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/staticproxy/ITeacherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/staticproxy/ITeacherDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/staticproxy/TeacherDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/staticproxy/TeacherDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/staticproxy/TeacherDaoProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/proxy/staticproxy/TeacherDaoProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/Approver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/Approver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/CollegeApprover.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/CollegeApprover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/DepartmentApprover.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/DepartmentApprover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/PurchaseRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/PurchaseRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/SchoolMasterApprover.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/SchoolMasterApprover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/ViceSchoolMasterApprover.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/responsibilitychain/ViceSchoolMasterApprover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type1/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type1/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type1/SingletonTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type1/SingletonTest01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type2/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type2/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type2/SingletonTest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type2/SingletonTest02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type3/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type3/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type3/SingletonTest03.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type3/SingletonTest03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type4/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type4/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type4/SingletonTest04.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type4/SingletonTest04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type6/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type6/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type6/SingletonTest06.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type6/SingletonTest06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type7/Singleton$SingletonInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type7/Singleton$SingletonInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type7/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type7/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type7/SingletonTest07.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type7/SingletonTest07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type8/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type8/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type8/SingletonTest08.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/singleton/type8/SingletonTest08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/CanRaffleState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/CanRaffleState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/ClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/DispenseOutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/DispenseOutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/DispenseState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/DispenseState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/NoRaffleState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/NoRaffleState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/RaffleActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/RaffleActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/AbstractState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/AbstractState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/ClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/FeedBackState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/FeedBackState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/GenerateState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/GenerateState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/NotPayState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/NotPayState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/PaidState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/PaidState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/PublishState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/PublishState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/ReviewState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/ReviewState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/StateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/state/money/StateEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/Duck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/PekingDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/PekingDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/ToyDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/ToyDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/WildDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/WildDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/BadFlyBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/BadFlyBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/Duck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/FlyBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/FlyBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/GoodFlyBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/GoodFlyBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/NoFlyBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/NoFlyBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/PekingDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/PekingDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/QuackBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/QuackBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/ToyDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/ToyDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/WildDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/strategy/improve/WildDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/PeanutSoyaMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/PeanutSoyaMilk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/RedBeanSoyaMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/RedBeanSoyaMilk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/SoyaMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/SoyaMilk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/PeanutSoyaMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/PeanutSoyaMilk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/PureSoyaMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/PureSoyaMilk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/RedBeanSoyaMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/RedBeanSoyaMilk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/SoyaMilk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/template/improve/SoyaMilk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/aggregation/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/aggregation/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/aggregation/Moniter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/aggregation/Moniter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/aggregation/Mouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/aggregation/Mouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Head.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Head.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/IDCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/IDCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Moniter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Moniter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Mouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Mouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/composition/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/IDCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/IDCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/PersonDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/PersonDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/PersonServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/dependence/PersonServiceBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/generalization/DaoSupport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/generalization/DaoSupport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/generalization/PersonServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/generalization/PersonServiceBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/implementation/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/implementation/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/implementation/PersonServiceBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/uml/implementation/PersonServiceBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Fail.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Fail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Man.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/ObjectStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/ObjectStructure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Success.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Success.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Wait.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Wait.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Woman.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPattern/bin/com/atguigu/visitor/Woman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-delegate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gupaoedu-vip-pattern-strategy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gupaoedu-vip-pattern-strategy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_escape/java-escape/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_escape/java-escape/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/ExceptionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/ExceptionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/GeneralException.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/GeneralException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/NumberAndTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/NumberAndTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/clone/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/clone/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/try_with_resources/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_escape/java-escape/src/main/java/com/imooc/java/escape/try_with_resources/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-escape/src/main/java/java/escape/EscapeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-escape/src/main/java/xxk/testes/EscapeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-escape/src/main/java/java/escape/nullpointdemo/WhatIsNpe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-escape/src/main/java/xxk/testes/demo/WhatIsNpe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-escape/src/test/java/java/escape/EscapeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-escape/src/test/java/xxk/testes/EscapeApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -8,7 +379,90 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1kPBie0KESkb8sbbyJ94rCZLG5m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imooc_escape/java-escape" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.52988505" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringEscapeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-escape" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.spring.escape.SpringEscapeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b63d17f-842f-496a-b54b-df09a73a9991" name="Default Changelist" comment="" />
+      <created>1605592474087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605592474087</updated>
+      <workItem from="1605592475460" duration="759000" />
+      <workItem from="1605762545164" duration="302000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1605592611808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605592611808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="93" key="#Project_Structure" timestamp="1605592997547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605592997547" />
+    <state x="1360" y="266" key="FileChooserDialogImpl" timestamp="1605593233972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1360" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605593233972" />
+    <state x="-1459" y="171" key="SettingsEditor" timestamp="1605762772152">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1459" y="171" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605762772152" />
+    <state x="1104" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605592623376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1104" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605592623376" />
   </component>
 </project>

@@ -1,5 +1,8 @@
 package com.atguigu.principle.inversion;
 
+/**
+ * “¿¿µµπ÷√‘≠‘Ú.
+ */
 public class DependecyInversion {
 
 	public static void main(String[] args) {
