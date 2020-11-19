@@ -9,16 +9,20 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.Buffer;
 
+
+
 /**
  * <h1>解决使用 try finally 的资源泄露隐患</h1>
  * */
+
 public class Main {
+
 
     /**
      * <h2>传统的方式实现对资源的关闭</h2>
      * */
-    private String traditionalTryCatch() throws IOException {
 
+    private String traditionalTryCatch() throws IOException {
         // 1. 单一资源的关闭
 //        String line = null;
 //        BufferedReader br = new BufferedReader(new FileReader(""));
@@ -51,6 +55,7 @@ public class Main {
         return null;
     }
 
+    /**
     /**
      * <h2>java7 引入的 try with resources 实现自动的资源关闭</h2>
      * */

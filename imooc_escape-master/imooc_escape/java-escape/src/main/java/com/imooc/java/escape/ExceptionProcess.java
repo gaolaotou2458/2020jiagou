@@ -1,5 +1,7 @@
 package com.imooc.java.escape;
 
+import org.junit.Test;
+
 /**
  * <h1>Java 异常处理</h1>
  * */
@@ -11,7 +13,8 @@ public class ExceptionProcess {
     /**
      * <h2>Java 异常本质 -- 抛出异常</h2>
      * */
-    private void throwException() {
+    @Test
+    public void throwException() {
 
         User user = null;
         // ....
@@ -23,7 +26,8 @@ public class ExceptionProcess {
     /**
      * <h2>不能捕获空指针异常</h2>
      * */
-    private void canNotCatchNpeException() {
+    @Test
+    public void canNotCatchNpeException() {
 
         try {
             throwException();

@@ -1,6 +1,7 @@
 package com.imooc.java.escape.clone;
 
 import lombok.Data;
+import lombok.SneakyThrows;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -57,6 +58,7 @@ public class Worker implements /*Cloneable*/ Serializable {
 //        }
 //    }
 
+    @SneakyThrows
     public Worker clone() {
 
         Worker worker = null;
@@ -70,7 +72,7 @@ public class Worker implements /*Cloneable*/ Serializable {
             ByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());
             ObjectInputStream ois = new ObjectInputStream(bais);
             worker = (Worker) ois.readObject();
-        } catch (IOException | ClassNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 

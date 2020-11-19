@@ -75,7 +75,7 @@ public class EqualOrElse {
         User user1 = new User("qinyi", 19);
         User user2 = new User("qinyi", 19);
 
-//        System.out.println(user1.equals(user2));
+        System.out.println(user1.equals(user2));
 
         Set<User> userSet = new HashSet<>();
         userSet.add(user1);
@@ -100,8 +100,8 @@ public class EqualOrElse {
 
         User user = new User("qinyi", 20);
 
-        int index1 = users.indexOf(user);
-        int index2 = Collections.binarySearch(users, user);
+        int index1 = users.indexOf(user); //实现的equals
+        int index2 = Collections.binarySearch(users, user); //基于compareTo 方法去查找
 
         System.out.println(index1);
         System.out.println(index2);
@@ -109,7 +109,7 @@ public class EqualOrElse {
 
     public static void main(String[] args) {
 
-//        equalsAndHashcode();
+ //       equalsAndHashcode();
         compareToAndEquals();
     }
 }

@@ -2,11 +2,8 @@ package com.imooc.java.escape;
 
 import com.google.common.base.Enums;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * <h1>编码中的常见的异常</h1>
@@ -24,8 +21,17 @@ public class GeneralException {
             this.name = name;
         }
 
+
+
         public String getName() {
             return name;
+        }
+
+        @Override
+        public String toString() {
+            return "User{" +
+                    "name='" + name + '\'' +
+                    '}';
         }
     }
 
@@ -56,10 +62,13 @@ public class GeneralException {
         Iterator<User> iter = users.iterator();
         while (iter.hasNext()) {
             User user = iter.next();
+
             if (user.getName().equals("imooc")) {
                 iter.remove();
             }
+
         }
+        System.out.println(users);
     }
 
     private static StaffType enumFind(String type) {
@@ -94,15 +103,18 @@ public class GeneralException {
 //        ArrayList<User> users = new ArrayList<User>(
 //                Arrays.asList(new User("qinyi"), new User("imooc"))
 //        );
-//        concurrentModificationException(users);
+        // 额外测试
+        //List<User> userList = users.stream().filter(item -> !"imooc".equals(item.getName()) ).collect(Collectors.toList());
+        //System.out.println(userList);
+        //concurrentModificationException(users);
 
         // 2. 类型转换异常
 //        User user1 = new Manager();
 //        User user2 = new Worker();
-
+//
 //        Manager m1 = (Manager) user1;
 //        Manager m2 = (Manager) user2;
-
+//
 //        System.out.println(user2.getClass().getName());
 //        System.out.println(user2 instanceof Manager);
 
