@@ -90,7 +90,7 @@ class SchoolManager {
 	//该方法完成输出学校总部和学院员工信息(id)
 	void printAllEmployee(CollegeManager sub) {
 		
-		//分析问题
+		//解决问题
 		//1. 将输出学院的员工方法，封装到CollegeManager
 		sub.printEmployee();
 	
