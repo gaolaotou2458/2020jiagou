@@ -11,6 +11,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 public class TestHowToUseAutowire {
 
+    /**
+     * bean没有表姐注解
+     */
     @Test
     public void firstTryTest() {
 
@@ -19,6 +22,9 @@ public class TestHowToUseAutowire {
         useAutowire.print();
     }
 
+    /**
+     * bean表姐了 @Component
+     */
     @Test
     public void secondTryTest() {
 
@@ -26,6 +32,7 @@ public class TestHowToUseAutowire {
         HowToUseAutowire useAutowire = new HowToUseAutowire();
         useAutowire.print();
     }
+
 
     @Test
     public void thirdTryTest() {

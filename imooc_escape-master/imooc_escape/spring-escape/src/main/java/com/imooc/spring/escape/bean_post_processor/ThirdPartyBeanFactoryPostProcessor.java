@@ -6,6 +6,9 @@ import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.stereotype.Component;
 
+/**
+ * 修改bean的创建模式，实例化之前进行修改
+ */
 @Component
 public class ThirdPartyBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
 
@@ -15,6 +18,6 @@ public class ThirdPartyBeanFactoryPostProcessor implements BeanFactoryPostProces
 
         BeanDefinition beanDefinition = beanFactory.getBeanDefinition(
                 "thirdPartyClass");
-        beanDefinition.setScope(BeanDefinition.SCOPE_PROTOTYPE);
+        beanDefinition.setScope(BeanDefinition.SCOPE_PROTOTYPE);//修改为原型模式
     }
 }

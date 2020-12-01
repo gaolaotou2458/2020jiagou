@@ -16,9 +16,11 @@ public class TestQYImooc {
     @Test
     public void testDefaultBeanName() {
 
-        QYImooc qyImooc = (QYImooc) ApplicationUtils.getBean("QYImooc");
+        //ApplicationUtils.
 
-        QYImooc qyImooc_ = ApplicationUtils.getBean(QYImooc.class);
+        QYImooc qyImooc = (QYImooc) ApplicationUtils.getBean("QYImooc");
         qyImooc.print();
+        QYImooc qyImooc_ = ApplicationUtils.getBean(QYImooc.class);
+        qyImooc_.print();
     }
 }

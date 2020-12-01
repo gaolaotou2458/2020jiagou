@@ -11,6 +11,7 @@ import java.util.List;
 
 @Slf4j
 @Service
+//设置是单例还是独立的bean
 @Scope(BeanDefinition.SCOPE_PROTOTYPE)
 public class DefaultImoocerManagerService {
 
@@ -18,7 +19,7 @@ public class DefaultImoocerManagerService {
 
     @PostConstruct
     public void init() {
-        log.info("Coming In DefaultImoocerManagerService init!");
+        log.info("================Coming In DefaultImoocerManagerService init!======================");
         this.imoocers = new ArrayList<>(100);
     }
 

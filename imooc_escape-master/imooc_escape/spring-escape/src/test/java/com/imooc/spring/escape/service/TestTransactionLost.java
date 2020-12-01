@@ -26,4 +26,34 @@ public class TestTransactionLost {
 
         springTransaction.NotRuntimeExceptionCanNotRollback();
     }
+
+    /**
+     * unchecked 异常可以回滚
+     */
+    @Test
+    public void testRuntimeExceptionCanRollback() {
+
+        springTransaction.RuntimeExceptionCanRollback();
+    }
+
+    /**
+     * 指定 rollbackFor , 事务可以回滚
+     */
+    @Test
+    public void testAssignExceptionCanRollback() throws CustomException {
+
+        springTransaction.AssignExceptionCanRollback();
+    }
+
+    /**
+     * 同一个类中, 一个不标注事务的方法去调用标注了事务的方法, 事务会失效
+     */
+    @Test
+    public void testNonTransactionalCanNotRollback() {
+
+        springTransaction.NonTransactionalCanNotRollback();
+    }
+
 }
+
+

@@ -21,6 +21,7 @@ public class AVIDecoder implements IDecoder, InitializingBean {
     @Override
     public void afterPropertiesSet() throws Exception {
 
-        log.info("Init AVIDecoder In InitializingBean.");
+        log.info("=============Init AVIDecoder In InitializingBean.===============");
+        System.out.println("=============Init AVIDecoder In InitializingBean.===============");
     }
 }

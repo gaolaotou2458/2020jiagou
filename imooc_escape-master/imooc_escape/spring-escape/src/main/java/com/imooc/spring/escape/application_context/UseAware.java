@@ -18,6 +18,6 @@ public class UseAware implements ApplicationContextAware {
                 applicationContext
         );
         assert ApplicationContextStore.getApplicationContext() != null;
-        log.info("UseAware Done.");
+        log.info("----------UseAware Done.-------------");
     }
 }

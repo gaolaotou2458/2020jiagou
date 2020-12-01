@@ -27,6 +27,7 @@ public class ImoocCourseService {
 //    }
 
     public void imoocCourse() {
+        System.out.println("imocc ");
         javaService.qinyiJava();
     }
 }

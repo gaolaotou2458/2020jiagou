@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.imooc.spring.escape.bean_post_processor.VideoType.AVI;
+import static com.imooc.spring.escape.bean_post_processor.VideoType.WMV;
+
 @Slf4j
 @Service
 public class DecoderManager implements BeanPostProcessor {
@@ -16,56 +19,39 @@ public class DecoderManager implements BeanPostProcessor {
             VideoType.values().length
     );
 
-    public String decode(VideoType type, String data) {
-
-        String result = null;
-
-        switch (type) {
-            case AVI:
-                result = videoTypeIndex.get(VideoType.AVI).decode(data);
-                break;
-            case WMV:
-                result = videoTypeIndex.get(VideoType.WMV).decode(data);
-                break;
-            default:
-                log.info("error");
-        }
-
-        return result;
-    }
-
     @Override
-    public Object postProcessBeforeInitialization(Object bean, String beanName)
-            throws BeansException {
-
-        if (!(bean instanceof IDecoder)) {
+    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+        if(!(bean instanceof IDecoder)) {
             return bean;
         }
-
-        IDecoder decoder = (IDecoder) bean;
+        IDecoder decoder = (IDecoder)bean;
         VideoType type = decoder.type();
-
-        if (videoTypeIndex.containsKey(type)) {
+        if(videoTypeIndex.containsKey(type)) {
             throw new IllegalStateException("重复注册");
         }
-
-        log.info("Load Decoder {} for video type {}", decoder.getClass(),
-                type.getDesc());
+        log.info("加载Decoder{} from vide type{}",decoder.getClass(),type.getClass());
         videoTypeIndex.put(type, decoder);
 
         return null;
     }
 
-    @Override
-    public Object postProcessAfterInitialization(Object bean, String beanName)
-            throws BeansException {
-
-        if (!(bean instanceof IDecoder)) {
-            return bean;
+    public String decode(VideoType type, String data){
+        String result = "";
+        switch (type){
+            case AVI:
+                result = videoTypeIndex.get(AVI).decode(data);
+                break;
+            case WMV:
+                result = videoTypeIndex.get(WMV).decode(data);
+                break;
+            default:
+                log.info("Error");
         }
+        return result;
+    }
 
-        log.info("BeanPostProcessor after init: {}", bean.getClass());
-
+    @Override
+    public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         return null;
     }
 }

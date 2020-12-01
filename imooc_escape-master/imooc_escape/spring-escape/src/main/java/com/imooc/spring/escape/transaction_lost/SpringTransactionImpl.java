@@ -20,7 +20,7 @@ public class SpringTransactionImpl implements ISpringTransaction {
             throw new RuntimeException();
         } catch (Exception ex) {
             ex.printStackTrace();
-            // 手动标记回滚
+            // 手动标记回滚 编程式事务
             TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
         }
     }

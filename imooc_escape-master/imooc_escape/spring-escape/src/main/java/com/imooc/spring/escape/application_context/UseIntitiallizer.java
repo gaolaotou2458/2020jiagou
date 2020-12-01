@@ -17,6 +17,6 @@ public class UseIntitiallizer implements
         assert ApplicationContextStore.getApplicationContext() == null;
         ApplicationContextStore.setApplicationContext(applicationContext);
         assert ApplicationContextStore.getApplicationContext() != null;
-        log.info("UseIntitiallizer Done.");
+        log.info("=========UseIntitiallizer Done.=============");
     }
 }

@@ -17,6 +17,6 @@ public class UseListener implements ApplicationListener<ApplicationContextEvent>
                 event.getApplicationContext()
         );
         assert ApplicationContextStore.getApplicationContext() != null;
-        log.info("UseListener Done.");
+        log.info("==========UseListener Done.=============");
     }
 }

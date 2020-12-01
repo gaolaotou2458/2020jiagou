@@ -14,17 +14,17 @@ spring:
   jpa:
     open-in-view: false
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/imooc_escape?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/imooc_escape?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
     username: root
     password: root
-    type: com.zaxxer.hikari.HikariDataSource
+#    type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    hikari:
-      minimum-idle: 10
-      maximum-pool-size: 20
-      idle-timeout: 500000
-      max-lifetime: 540000
-      connection-timeout: 60000
-      connection-test-query: SELECT 1
-      pool-name: SpringEscapeHikariPool
+#    hikari:
+#      minimum-idle: 10
+#      maximum-pool-size: 20
+#      idle-timeout: 500000
+#      max-lifetime: 540000
+#      connection-timeout: 60000
+#      connection-test-query: SELECT 1
+#      pool-name: SpringEscapeHikariPool
 

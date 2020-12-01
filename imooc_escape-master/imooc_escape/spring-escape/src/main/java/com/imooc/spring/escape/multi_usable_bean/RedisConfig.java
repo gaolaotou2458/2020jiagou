@@ -14,7 +14,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
  * <h1>配置多个 Redis 数据源</h1>
  * */
 @SuppressWarnings("all")
-@Configuration
+//@Configuration
 public class RedisConfig {
 
     private final RedisConnectionFactory redisConnectionFactory;
