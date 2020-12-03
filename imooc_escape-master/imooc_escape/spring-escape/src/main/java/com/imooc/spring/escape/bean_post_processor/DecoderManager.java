@@ -21,6 +21,9 @@ public class DecoderManager implements BeanPostProcessor {
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+
+
+
         if(!(bean instanceof IDecoder)) {
             return bean;
         }

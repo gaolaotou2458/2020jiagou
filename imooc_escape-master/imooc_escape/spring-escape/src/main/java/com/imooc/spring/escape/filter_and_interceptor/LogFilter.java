@@ -22,14 +22,16 @@ public class LogFilter implements Filter {
     }
 
     @Override
-    public void doFilter(ServletRequest request, ServletResponse response,
-                         FilterChain chain) throws IOException, ServletException {
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+            throws IOException, ServletException {
         long start = System.currentTimeMillis();
         chain.doFilter(request, response);
         log.info("LogFilter Print Log: {} -> {}",
                 ((HttpServletRequest) request).getRequestURI(),
                 System.currentTimeMillis() - start);
     }
+
+
 
     @Override
     public void destroy() {

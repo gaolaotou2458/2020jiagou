@@ -12,7 +12,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.ThreadPoolExecutor;
 
 @Slf4j
-@Configuration
+//@Configuration
 public class AsyncTaskConfig implements AsyncConfigurer {
 
     @Override

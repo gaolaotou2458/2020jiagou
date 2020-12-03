@@ -16,4 +16,5 @@ public class GeneralResponse<T> {
         this.code = code;
         this.message = message;
     }
+
 }

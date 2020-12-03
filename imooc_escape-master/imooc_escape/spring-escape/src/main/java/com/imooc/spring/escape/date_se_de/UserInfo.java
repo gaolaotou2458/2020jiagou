@@ -17,7 +17,8 @@ public class UserInfo {
 
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
 //    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
-//    @JsonDeserialize(using = DateJacksonConverter.class)
+    //自定义反序列化器支持多种日期格式
+    //@JsonDeserialize(using = DateJacksonConverter.class)
     private Date birthday;
 
     public UserInfo() {

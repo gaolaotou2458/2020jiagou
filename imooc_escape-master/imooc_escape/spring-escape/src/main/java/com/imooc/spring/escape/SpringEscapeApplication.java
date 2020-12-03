@@ -15,6 +15,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableAsync
 //@EnableScheduling
 @SpringBootApplication
+//springboot开启扫描过滤器
 @ServletComponentScan("com.imooc.spring.escape")
 //默认扫描路径 启动类当前包以及子包
 @ComponentScan(value = {"com.imooc.spring.escape", "com.imooc.spring.outer"})
@@ -32,8 +33,8 @@ public class SpringEscapeApplication {
         application.run(args);
 
         // 第三种方式获取应用上下文
-        ApplicationContextStore.setApplicationContext(
-                SpringApplication.run(SpringEscapeApplication.class, args)
-        );
+//        ApplicationContextStore.setApplicationContext(
+//                SpringApplication.run(SpringEscapeApplication.class, args)
+//        );
     }
 }

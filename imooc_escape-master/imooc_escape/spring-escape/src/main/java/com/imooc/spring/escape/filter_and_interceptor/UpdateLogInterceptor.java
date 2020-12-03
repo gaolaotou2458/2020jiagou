@@ -8,6 +8,9 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * 通过reqeust.set 保证线程安全
+ */
 @Slf4j
 @Component
 public class UpdateLogInterceptor implements HandlerInterceptor {

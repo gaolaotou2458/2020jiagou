@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 @Component
 public class LogInterceptor implements HandlerInterceptor {
 
+    //非线程安全
     long start = System.currentTimeMillis();
 
     @Override

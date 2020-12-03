@@ -17,6 +17,7 @@ public class DateConverterConfig {
     public Jackson2ObjectMapperFactoryBean jackson2ObjectMapperFactoryBean(
             @Autowired DateJacksonConverter dateJacksonConverter
     ) {
+        System.out.println("==========全局时间转换器配置=========");
         Jackson2ObjectMapperFactoryBean jackson2ObjectMapperFactoryBean =
                 new Jackson2ObjectMapperFactoryBean();
         jackson2ObjectMapperFactoryBean.setDeserializers(dateJacksonConverter);

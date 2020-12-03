@@ -35,6 +35,7 @@ public class NeedDateController {
 
         result.put("id", userInfo.getId().toString());
         result.put("name", userInfo.getName());
+        System.out.println(userInfo);
         result.put("birthday", String.valueOf(userInfo.getBirthday().getTime()));
 
         return result;
