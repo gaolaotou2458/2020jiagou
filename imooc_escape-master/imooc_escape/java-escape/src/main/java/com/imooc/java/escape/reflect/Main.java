@@ -15,8 +15,9 @@ public class Main {
         Class<Boss> clz = Boss.class;
         Method[] methods = clz.getDeclaredMethods();
 
-//        Method method = clz.getDeclaredMethod("numeric", int.class);
-        Method method = clz.getDeclaredMethod("numeric", Integer.TYPE);
+        //Method method = clz.getDeclaredMethod("numeric", int.class);
+        //跟参数类型不一样，用包装数据类型也会报错
+        Method method = clz.getDeclaredMethod("numeric", Integer.class);
         System.out.println(method.invoke(clz.newInstance(), 19));
     }
 
@@ -26,8 +27,8 @@ public class Main {
     private static void reflectAcquireClassMethod() throws Exception {
 
         Class<Boss> clz = Boss.class;
-//        Method method = clz.getDeclaredMethod("boss", String.class);
-//        Method method = clz.getDeclaredMethod("worker", String.class);
+        //Method method = clz.getDeclaredMethod("boss", String.class);
+        //Method method1 = clz.getDeclaredMethod("worker", String.class);
 
         Method superMethod = getMethod(clz, "worker",
                 new Class[]{String.class});
@@ -36,6 +37,13 @@ public class Main {
         }
     }
 
+    /**
+     * 工具方法，本类获取不到，递归则去父类获取
+     * @param target
+     * @param methodName
+     * @param argTypes
+     * @return
+     */
     private static Method getMethod(Class<?> target, String methodName,
                                     Class<?>[] argTypes) {
 
@@ -57,7 +65,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-//        reflectDeclaredMethod();
+        //reflectDeclaredMethod();
 
         reflectAcquireClassMethod();
     }

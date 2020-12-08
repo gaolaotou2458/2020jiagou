@@ -21,18 +21,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        for (int i = 0; i != 3; ++i) {
-//
-//            new Thread(
-//                    () -> {
-//                        DoCompetition competition = new DoCompetition();
-//                        competition.code();
-//                        competition.config();
-//                        competition.print();
-//                    }, "Thread-" + (i + 1)
-//            ).start();
-//        }
+        for (int i = 0; i != 3; ++i) {
 
-        threadLocalCanNotInherit();
+            new Thread(
+                    () -> {
+                        DoCompetition competition = new DoCompetition();
+                        competition.code();
+                        competition.config();
+                        competition.print();
+                    }, "Thread-" + (i + 1)
+            ).start();
+        }
+
+//        threadLocalCanNotInherit();
     }
 }

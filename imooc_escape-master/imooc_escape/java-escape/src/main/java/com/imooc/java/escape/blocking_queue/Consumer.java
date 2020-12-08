@@ -13,21 +13,21 @@ public class Consumer implements Runnable {
         this.blockingQueue = blockingQueue;
     }
 
+
     @Override
     public void run() {
-
-        try {
-            while (true) {
+        try{
+            while(true) {
                 int value = blockingQueue.take();
-                System.out.println("Consume: " + value);
-                if (value >= 99) {
+                System.out.println("消费：" + value);
+                if(value >= 99) {
                     break;
                 }
             }
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-        System.out.println("Consumer Done!");
+        System.out.println("消费者 Done!");
     }
 }

@@ -1,5 +1,6 @@
 package com.imooc.java.escape.abstract_interface;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -11,10 +12,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> list = Arrays.asList(1,2,3,4,5);
 
-        int min = list.stream().min(Comparator.comparing(value -> value)).get();
-        int max = list.stream().max(Comparator.comparing(value -> value)).get();
+        Integer min = list.stream().min(Comparator.comparing(value -> value)).get();
+        Integer max = list.stream().max(Comparator.comparing(value -> value)).get();
 
         System.out.println(min);
         System.out.println(max);

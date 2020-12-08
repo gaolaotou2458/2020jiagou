@@ -5,6 +5,9 @@ package com.imooc.java.escape;
  * */
 public class StringContact {
 
+    /**
+     * 编译器这里自动转为StringBuilder 拼接
+     */
     private static void easyContact() {
 
         String userName = "Qinyi";
@@ -15,6 +18,10 @@ public class StringContact {
         System.out.println(info);
     }
 
+    /**
+     *
+     * @param values
+     */
     private static void implicitUseStringBuilder(String[] values) {
         String result = "";
 
@@ -37,6 +44,9 @@ public class StringContact {
 
     public static void main(String[] args) {
 
-        easyContact();
+        //easyContact();
+        String[] values = new String[]{"111","222","3333"};
+        implicitUseStringBuilder(values);
+        explicitUseStringBuilder(values);
     }
 }

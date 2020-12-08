@@ -14,6 +14,9 @@ public class Producer implements Runnable {
         this.blockingQueue = blockingQueue;
     }
 
+    /**
+     * offer 非阻塞，存在元素跳过情况
+     */
 //    @Override
 //    public void run() {
 //
@@ -30,13 +33,14 @@ public class Producer implements Runnable {
 
         try {
             while (element < 100) {
-                System.out.println("Produce: " + element);
+                System.out.println("生产者: " + element);
+
                 blockingQueue.put(element++);
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        System.out.println("Produce Done!");
+        System.out.println("生产者 Done!");
     }
 }

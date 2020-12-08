@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 /**
  * <h1>类中存在引用对象</h1>
+ * 组合类没实现序列化，则序列化失败
  * */
 @Getter
 @Setter

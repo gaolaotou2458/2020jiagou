@@ -82,8 +82,8 @@ public class Atomic_ {
 
     public static void main(String[] args) throws Exception {
 
-        accumulator(20000);
+//        accumulator(20000);
 
-//        atomicAccumulator(10000);
+        atomicAccumulator(10000);
     }
 }

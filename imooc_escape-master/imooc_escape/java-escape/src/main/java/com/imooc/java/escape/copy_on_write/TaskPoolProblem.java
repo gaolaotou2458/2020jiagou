@@ -24,6 +24,7 @@ public class TaskPoolProblem {
                 }
             }
         });
+        //设置为守护进程
         thread.setDaemon(true);
         thread.start();
 

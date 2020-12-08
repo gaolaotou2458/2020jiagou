@@ -24,6 +24,10 @@ public class ThreadLocalValueHolder {
         holder.set(holder.get() + 1);
     }
 
+    /**
+     * 要及时的清理回收，
+     * @param args
+     */
     public static void main(String[] args) {
 
         ExecutorService executor = Executors.newFixedThreadPool(3);

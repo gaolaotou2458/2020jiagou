@@ -1,5 +1,8 @@
 package com.imooc.java.escape.thread_local;
 
+/**
+ * 实现比赛
+ */
 public class DoCompetition {
 
     public void code() {

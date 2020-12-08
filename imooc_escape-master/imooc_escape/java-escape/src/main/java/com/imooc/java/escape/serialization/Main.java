@@ -20,34 +20,39 @@ public class Main {
         // 序列化的步骤
 
         // 用于存储序列化的文件
+
         File file = new File("/tmp/people_10.java_");
+
         People p = new People(10L);
 
         // 创建一个输出流
-        ObjectOutputStream oos = new ObjectOutputStream(
-                new FileOutputStream(file)
-        );
-        // 输出可序列化对象
-        oos.writeObject(p);
-        // 关闭输出流
-        oos.close();
+        try (
+            ObjectOutputStream oos = new ObjectOutputStream(
+                new FileOutputStream(file))
+        ){
+            // 输出可序列化对象
+            oos.writeObject(p);
+        }
 
         // 反序列化的步骤
 
         // 创建一个输入流
-        ObjectInputStream ois = new ObjectInputStream(
-                new FileInputStream(file)
-        );
-        // 得到反序列化的对象
-        Object newPerson = ois.readObject();
-        // 关闭输入流
-        ois.close();
+        try (
+            ObjectInputStream ois = new ObjectInputStream(
+                new FileInputStream(file))
+        ){
+            // 得到反序列化的对象
+            Object newPerson = ois.readObject();
+            System.out.println(newPerson);
+        }
 
-        System.out.println(newPerson);
+
+
     }
 
     /**
      * <h2>子类实现序列化, 父类不实现序列化</h2>
+     * 则需要调用子类的午餐构造函数
      * */
     private static void testSerizableWorker() throws Exception {
 
@@ -71,7 +76,7 @@ public class Main {
 
     private static void testSerializableCombo() throws Exception {
 
-        File file = new File("/tmp/combo_10.java_");
+        File file = new File("D://tmp/combo_10.java_");
         Combo p = new Combo(1, new People(10L));
 
         // 创建一个输出流
@@ -94,7 +99,7 @@ public class Main {
      * */
     private static void sameObjectRepeatedSerialization() throws Exception {
 
-        File file = new File("/tmp/peopele_more.java_");
+        File file = new File("D:/tmp/peopele_more.java_");
         People p = new People(10L);
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(file));
 

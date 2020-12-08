@@ -88,7 +88,7 @@ public class StudyLambda {
                 .mapToInt(String::length)
                 .max()
                 .getAsInt();
-
+        System.out.println(longestNameSize);
         int longest = 0;
         for (String str : names) {
             if (str.startsWith("q")) {
@@ -98,5 +98,9 @@ public class StudyLambda {
         }
 
         System.out.println(longest);
+    }
+
+    public static void main(String[] args) {
+        badUseLambda();
     }
 }

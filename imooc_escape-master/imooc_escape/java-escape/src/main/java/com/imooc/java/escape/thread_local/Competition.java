@@ -6,6 +6,9 @@ public class Competition {
             () -> new Material("初始代码", "初始配置")
     );
 
+    /**
+     * 比赛素材
+     */
     public static class Material {
 
         private String code;

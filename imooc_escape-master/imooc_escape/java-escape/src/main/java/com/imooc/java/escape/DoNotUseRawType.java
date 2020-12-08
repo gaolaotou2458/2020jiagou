@@ -18,28 +18,28 @@ public class DoNotUseRawType {
      * */
     private static void simpleExample() {
 
+        //List<String> list = new ArrayList<>();
+
         List data = new ArrayList();
         data.add("qinyi");
         data.add(19);
         data.add("Hello Imooc");
 
-//        data.forEach(System.out::println);
-//
-//        data.forEach(d -> {
-//
-//            if (((String) d).equals("Hello Imooc")) {
+        data.forEach(System.out::println);
+
+//        data.forEach(d-> {
+//            if(((String)d).equals("Hello Imocc")) {
 //                System.out.println(data.indexOf(d));
 //            }
-//
 //        });
+        System.out.println("--------------");
+        data.forEach(d-> {
 
-        data.forEach(d -> {
-
-            if (d instanceof String && ((String) d).equals("Hello Imooc")) {
+            if(d instanceof String && ((String)d).equals("Hello Imooc")) {
                 System.out.println(data.indexOf(d));
             }
-
         });
+
     }
 
     /**

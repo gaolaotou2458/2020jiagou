@@ -16,11 +16,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
-//        IFindWorker findWorker = id -> id2WorkerMap.get(id);
+        //IFindWorker findWorker = id -> id2WorkerMap.get(id);
 
         IFindWorker findWorker = id2WorkerMap::get;
-
         System.out.println(findWorker.findWorkerById(1L));
     }
 }
