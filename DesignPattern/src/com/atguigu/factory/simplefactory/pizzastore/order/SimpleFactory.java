@@ -8,7 +8,7 @@ import com.atguigu.factory.simplefactory.pizzastore.pizza.Pizza;
 //简单工厂类
 public class SimpleFactory {
 
-	//更加orderType 返回对应的Pizza 对象
+	//根据orderType 返回对应的Pizza 对象
 	public Pizza createPizza(String orderType) {
 
 		Pizza pizza = null;

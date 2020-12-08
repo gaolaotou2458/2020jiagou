@@ -20,4 +20,9 @@ public class Vivo implements Brand {
 		System.out.println(" Vivo手机打电话 ");
 	}
 
+	@Override
+	public void tt() {
+
+	}
+
 }

@@ -20,4 +20,8 @@ public class XiaoMi implements Brand {
 		System.out.println(" 小米手机打电话 ");
 	}
 
+	@Override
+	public void tt() {
+
+	}
 }

@@ -40,6 +40,11 @@ public class Sheep implements Cloneable {
 	public String toString() {
 		return "Sheep [name=" + name + ", age=" + age + ", color=" + color + ", address=" + address + "]";
 	}
+
+	/**
+	 * 原对象克隆出来不同的实例，但是引用对象是浅克隆，引用的都是同一个对象
+	 * @return
+	 */
 	//克隆该实例，使用默认的clone方法来完成
 	@Override
 	protected Object clone()  {

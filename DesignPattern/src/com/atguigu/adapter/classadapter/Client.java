@@ -1,5 +1,8 @@
 package com.atguigu.adapter.classadapter;
 
+/**
+ * ÀàÊÊÅäÆ÷
+ */
 public class Client {
 
 	public static void main(String[] args) {

@@ -20,5 +20,7 @@ public abstract class Phone {
 	protected void call() {
 		brand.call();
 	}
-	
+	protected void tt() {
+		brand.tt();
+	}
 }

@@ -1,45 +1,29 @@
 package com.atguigu.composite;
 
+/**
+ *
+ *
+ *@description: 定义一些相关的方法
+ * 可以是抽象方法，具体方法，或者是结构
+ *@author: 徐小康
+ *@time: 2020/12/8 13:26
+ * 
+ */
 public abstract class OrganizationComponent {
 
-	private String name; // 名字
-	private String des; // 说明
-	
-	protected  void add(OrganizationComponent organizationComponent) {
-		//默认实现
-		throw new UnsupportedOperationException();
-	}
-	
-	protected  void remove(OrganizationComponent organizationComponent) {
-		//默认实现
-		throw new UnsupportedOperationException();
-	}
+    private String name; //名字
+    private String des; // 说明
 
-	//构造器
-	public OrganizationComponent(String name, String des) {
-		super();
-		this.name = name;
-		this.des = des;
-	}
 
-	public String getName() {
-		return name;
-	}
+    protected void add(OrganizationComponent organizationComponent) {
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    }
 
-	public String getDes() {
-		return des;
-	}
+    protected void remove(OrganizationComponent organizationComponent){
 
-	public void setDes(String des) {
-		this.des = des;
-	}
-	
-	//方法print, 做成抽象的, 子类都需要实现
-	protected abstract void print();
-	
-	
+    }
+
+    protected void print(OrganizationComponent organizationComponent){
+
+    }
 }

@@ -16,6 +16,7 @@ public class SingletonTest07 {
 }
 
 // 静态内部类完成， 推荐使用
+//
 class Singleton {
 	private static volatile Singleton instance;
 	

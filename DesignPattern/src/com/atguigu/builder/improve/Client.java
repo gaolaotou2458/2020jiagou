@@ -10,7 +10,7 @@ public class Client {
 		
 		//完成盖房子，返回产品(普通房子)
 		House house = houseDirector.constructHouse();
-		
+		System.out.println(house);
 		//System.out.println("输出流程");
 		
 		System.out.println("--------------------------");
@@ -19,9 +19,9 @@ public class Client {
 		//重置建造者
 		houseDirector.setHouseBuilder(highBuilding);
 		//完成盖房子，返回产品(高楼)
-		houseDirector.constructHouse();
-		
-		
-		
+		House house1 = houseDirector.constructHouse();
+		System.out.println(house1);
+
+
 	}
 }

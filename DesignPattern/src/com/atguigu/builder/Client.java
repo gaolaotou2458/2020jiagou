@@ -6,6 +6,9 @@ public class Client {
 		// TODO Auto-generated method stub
 		CommonHouse commonHouse = new CommonHouse();
 		commonHouse.build();
+		System.out.println("=====±ðÊû========");
+		BieShuHouse bieShuHouse = new BieShuHouse();
+		bieShuHouse.build();
 	}
 
 }
