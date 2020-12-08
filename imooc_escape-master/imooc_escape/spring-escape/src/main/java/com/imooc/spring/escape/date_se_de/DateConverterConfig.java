@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean;
 
 @Configuration
-public class DateConverterConfig {
+class nverterConfig {
 
     @Bean
     public DateJacksonConverter dateJacksonConverter() {

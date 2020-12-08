@@ -6,7 +6,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-//@Configuration
+/**
+ * 是线程安全的
+ * 创建消耗资源，尽量重复使用
+ * 声明为bean,统一化配置，更加合适
+ */
+@Configuration
 public class ObjectMapperConfig {
 
     @Bean

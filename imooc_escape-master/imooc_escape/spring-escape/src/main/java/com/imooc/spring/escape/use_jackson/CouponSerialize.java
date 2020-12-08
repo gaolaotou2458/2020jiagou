@@ -17,7 +17,7 @@ public class CouponSerialize extends JsonSerializer<Coupon> {
         generator.writeStartObject();
 
         generator.writeStringField("id", String.valueOf(coupon.getId()));
-        generator.writeStringField("userId", coupon.getUserId().toString());
+        generator.writeStringField("userId1111", coupon.getUserId().toString());
         generator.writeStringField("couponCode", coupon.getCouponCode());
         generator.writeStringField("assignTime",
                 new SimpleDateFormat("HH:mm:ss").format(coupon.getAssignTime()));

@@ -12,25 +12,24 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.ThreadPoolExecutor;
 
 @Slf4j
-//@Configuration
+@Configuration
 public class AsyncTaskConfig implements AsyncConfigurer {
 
     @Override
     public Executor getAsyncExecutor() {
 
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-
-        executor.setThreadNamePrefix("imooc-qinyi-task-");
+        executor.setThreadNamePrefix("imocc-qinyi-task-");
         executor.setCorePoolSize(2);
         executor.setMaxPoolSize(8);
         executor.setKeepAliveSeconds(5);
         executor.setQueueCapacity(100);
+        //默认拒绝策略
         executor.setRejectedExecutionHandler(new ThreadPoolExecutor.AbortPolicy());
-
+        //等待任务执行完成再去关闭其他bean
         executor.setWaitForTasksToCompleteOnShutdown(true);
+        //任务等待时间，到时间没关闭，强制销毁
         executor.setAwaitTerminationSeconds(60);
-
-        executor.initialize();
 
         return executor;
     }

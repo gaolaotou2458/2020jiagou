@@ -15,20 +15,23 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-//@JsonInclude(JsonInclude.Include.NON_NULL)
+//不允许值为null
+@JsonInclude(JsonInclude.Include.NON_NULL)
 //@JsonIgnoreProperties({"couponCode", "status"})
 @JsonSerialize(using = CouponSerialize.class)
 public class Coupon {
 
-//    @JsonIgnore
+    //@JsonIgnore
     private int id;
 
-//    @JsonProperty("user")
+    //指定key
+    //@JsonProperty("user")
     private Long userId;
 
     private String couponCode;
 
-//    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "hh:mm:ss")
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "hh:mm:ss")
     private Date assignTime;
 
     private CouponStatus status;
