@@ -16,7 +16,7 @@ public class WebSiteFactory {
 			pool.put(type, new ConcreteWebSite(type));
 		}
 		
-		return (WebSite)pool.get(type);
+		return pool.get(type);
 	}
 	
 	//获取网站分类的总数 (池中有多少个网站类型)
