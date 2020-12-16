@@ -1,31 +1,27 @@
 package com.atguigu.command;
 
-public class LightOnCommand implements Command {
+/**
+ *@description: 
+ *@author: 徐小康
+ *@time: 2020/12/16 9:56
+ */
+public class LightOnCommand implements Command{
+    LightReceiver light;
 
-	//聚合LightReceiver
-	
-	LightReceiver light;
-	
-	//构造器
-	public LightOnCommand(LightReceiver light) {
-		super();
-		this.light = light;
-	}
-	
-	@Override
-	public void execute() {
-		// TODO Auto-generated method stub
-		//调用接收者的方法
-		light.on();
-	}
+    public LightOnCommand(LightReceiver light){
+        this.light = light;
+    }
 
-	
+    //聚合LightReceiver
+    @Override
+    public void execute() {
+        //调用接受者的方法
+        light.on();
+    }
 
-	@Override
-	public void undo() {
-		// TODO Auto-generated method stub
-		//调用接收者的方法
-		light.off();
-	}
-
+    //撤销 反操作
+    @Override
+    public void undo() {
+        light.off();
+    }
 }

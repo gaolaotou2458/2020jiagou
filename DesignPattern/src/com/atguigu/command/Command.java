@@ -1,11 +1,16 @@
 package com.atguigu.command;
 
-
-//创建命令接口
+/**
+ *@description: 创建命令接口
+ *@author: 徐小康
+ *@time: 2020/12/16 9:45
+ */
 public interface Command {
+    //执行动作(操作)
+    public void execute();
 
-	//执行动作(操作)
-	public void execute();
-	//撤销动作(操作)
-	public void undo();
+    //撤销动作（操作）
+    public void undo();
+
+
 }

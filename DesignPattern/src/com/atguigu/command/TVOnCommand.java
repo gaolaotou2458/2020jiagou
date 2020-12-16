@@ -1,28 +1,27 @@
 package com.atguigu.command;
 
-public class TVOnCommand implements Command {
+/**
+ *@description: 
+ *@author: 徐小康
+ *@time: 2020/12/16 9:56
+ */
+public class TVOnCommand implements Command{
+    TVReceiver tv;
 
-	// 聚合TVReceiver
+    public TVOnCommand(TVReceiver tv){
+        this.tv = tv;
+    }
 
-	TVReceiver tv;
+    //聚合LightReceiver
+    @Override
+    public void execute() {
+        //调用接受者的方法
+        tv.on();
+    }
 
-	// 构造器
-	public TVOnCommand(TVReceiver tv) {
-		super();
-		this.tv = tv;
-	}
-
-	@Override
-	public void execute() {
-		// TODO Auto-generated method stub
-		// 调用接收者的方法
-		tv.on();
-	}
-
-	@Override
-	public void undo() {
-		// TODO Auto-generated method stub
-		// 调用接收者的方法
-		tv.off();
-	}
+    //撤销 反操作
+    @Override
+    public void undo() {
+        tv.off();
+    }
 }
