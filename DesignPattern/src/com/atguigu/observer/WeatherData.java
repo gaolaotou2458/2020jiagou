@@ -9,9 +9,9 @@ package com.atguigu.observer;
  *
  */
 public class WeatherData {
-	private float temperatrue;
-	private float pressure;
-	private float humidity;
+	private float temperatrue; //温度
+	private float pressure; //气压
+	private float humidity; //湿度
 	private CurrentConditions currentConditions;
 	//加入新的第三方
 

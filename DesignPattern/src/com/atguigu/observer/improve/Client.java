@@ -1,30 +1,26 @@
 package com.atguigu.observer.improve;
 
+/**
+ *@description: 
+ *@author: 徐小康
+ *@time: 2020/12/22 10:10
+ */
 public class Client {
+    public static void main(String[] args) {
+        WeatherData weatherData = new WeatherData();
+        
+        //创建观察者
+        CurrentConditions currentConditions = new CurrentConditions();
+        BaiduSite baiduSite = new BaiduSite();
+        //注册
+        weatherData.registerObserver(currentConditions);
+        weatherData.registerObserver(baiduSite);
+        //测试
+       // System.out.println("通知各个注册的观察者");
+        //weatherData.setData(30f, 20f, 10f);
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//创建一个WeatherData
-		WeatherData weatherData = new WeatherData();
-		
-		//创建观察者
-		CurrentConditions currentConditions = new CurrentConditions();
-		BaiduSite baiduSite = new BaiduSite();
-		
-		//注册到weatherData
-		weatherData.registerObserver(currentConditions);
-		weatherData.registerObserver(baiduSite);
-		
-		//测试
-		System.out.println("通知各个注册的观察者, 看看信息");
-		weatherData.setData(10f, 100f, 30.3f);
-		
-		
-		weatherData.removeObserver(currentConditions);
-		//测试
-		System.out.println();
-		System.out.println("通知各个注册的观察者, 看看信息");
-		weatherData.setData(10f, 100f, 30.3f);
-	}
 
+
+        weatherData.setData(230f, 20f, 10f);
+    }
 }

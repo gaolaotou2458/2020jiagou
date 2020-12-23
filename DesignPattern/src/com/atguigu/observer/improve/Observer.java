@@ -1,7 +1,14 @@
 package com.atguigu.observer.improve;
 
-//观察者接口，有观察者来实现
+/**
+ *@description: 观察者
+ * 由观察者来实现
+ *@author: 徐小康
+ *@time: 2020/12/22 9:28
+ */
 public interface Observer {
+    //温度 气压 湿度
+    public void update(float temperatrue,float pressure, float humidity);
 
-	public void update(float temperature, float pressure, float humidity);
+
 }
