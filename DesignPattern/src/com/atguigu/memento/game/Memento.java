@@ -1,30 +1,33 @@
 package com.atguigu.memento.game;
 
+/**
+ *@description: 备忘录对象
+ *@author: 徐小康
+ *@time: 2020/12/24 10:10
+ */
 public class Memento {
+    private int vit; //攻击力
+    private int del; //防御力
 
-	//攻击力
-	private int vit;
-	//防御力
-	private int def;
-	public Memento(int vit, int def) {
-		super();
-		this.vit = vit;
-		this.def = def;
-	}
-	public int getVit() {
-		return vit;
-	}
-	public void setVit(int vit) {
-		this.vit = vit;
-	}
-	public int getDef() {
-		return def;
-	}
-	public void setDef(int def) {
-		this.def = def;
-	}
-	
-	
-	
-	
+    public Memento(int vit, int del) {
+        super();
+        this.vit = vit;
+        this.del = del;
+    }
+
+    public int getVit() {
+        return vit;
+    }
+
+    public void setVit(int vit) {
+        this.vit = vit;
+    }
+
+    public int getDel() {
+        return del;
+    }
+
+    public void setDel(int del) {
+        this.del = del;
+    }
 }

@@ -1,5 +1,8 @@
 package com.atguigu.memento.theory;
 
+/**
+ * 需要保存状态的对象
+ */
 public class Originator {
 
 	private String state;//状态信息
@@ -20,6 +23,6 @@ public class Originator {
 	
 	//通过备忘录对象，恢复状态
 	public void getStateFromMemento(Memento memento) {
-		state = memento.getState();
+		this.state = memento.getState();
 	}
 }
