@@ -17,7 +17,7 @@ public class Client {
         //创建点灯相关的开关命令
         LightOnCommand lightOnCommand = new LightOnCommand(lightReceiver);
         LightOffCommand lightOffCommand = new LightOffCommand(lightReceiver);
-
+        int line = 0;
         //需要一个遥控器
         RemoteController remoteController = new RemoteController();
         //给遥控器设置相关命令 no = 0 点灯的开关
