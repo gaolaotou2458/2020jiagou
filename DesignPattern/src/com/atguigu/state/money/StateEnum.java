@@ -34,4 +34,8 @@ public enum StateEnum {
     }
     public int getKey() {return key;}
     public String getValue() {return value;}
+
+    public static void main(String[] args) {
+        System.out.println(StateEnum.NOT_PAY.getKey());
+    }
 }

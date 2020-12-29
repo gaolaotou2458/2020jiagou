@@ -14,10 +14,14 @@ public class RaffleActivity {
     int count = 0;
     
     // 四个属性，表示四种状态
+    // 不能抽奖状态
     State noRafflleState = new NoRaffleState(this);
+    // 可以抽奖状态
     State canRaffleState = new CanRaffleState(this);
-    
+
+    //发放奖品的状态
     State dispenseState =   new DispenseState(this);
+    //奖品发放完毕状态
     State dispensOutState = new DispenseOutState(this);
 
     //构造器

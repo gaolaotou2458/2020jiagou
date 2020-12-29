@@ -38,8 +38,10 @@ public class DispenseState extends State {
             System.out.println("很遗憾，奖品发送完了");
             // 改变状态为奖品发送完毕, 后面我们就不可以抽奖
             activity.setState(activity.getDispensOutState());
-            //System.out.println("抽奖活动结束");
-            //System.exit(0);
+
+            //第二种形式，直接结束
+//            System.out.println("抽奖活动结束");
+//            System.exit(0);
         }
 
     }

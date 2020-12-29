@@ -16,13 +16,13 @@ public class ClientTest {
 //        //not pay --> paid
         context.payOrderEvent(context);
 //        // 失败, 检测失败时，会抛出异常
-//        try {
-//        	context.checkFailEvent(context);
-//        	System.out.println("流程正常..");
-//		} catch (Exception e) {
-//			// TODO: handle exception
-//			System.out.println(e.getMessage());
-//		}
+        try {
+        	context.checkFailEvent(context);
+        	System.out.println("流程正常..");
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e.getMessage());
+		}
         
 	}
 

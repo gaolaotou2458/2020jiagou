@@ -29,7 +29,11 @@ public class ConcreteMediator extends Mediator {
 		} else if (colleague instanceof Curtains) {
 			interMap.put("Curtains", colleagueName);
 		}
-
+		System.out.println("===========");
+		interMap.forEach((key,value) -> {
+			System.out.println(value);
+		});
+		System.out.println("===========");
 	}
 
 	//具体中介者的核心方法
