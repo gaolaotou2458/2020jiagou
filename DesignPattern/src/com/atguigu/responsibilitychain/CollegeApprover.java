@@ -13,6 +13,7 @@ public class CollegeApprover extends Approver {
 		if(purchaseRequest.getPrice() < 5000 && purchaseRequest.getPrice() <= 10000) {
 			System.out.println(" 请求编号 id= " + purchaseRequest.getId() + " 被 " + this.name + " 处理");
 		}else {
+			System.out.println("当前角色处理不了,向下流转");
 			approver.processRequest(purchaseRequest);
 		}
 	}
