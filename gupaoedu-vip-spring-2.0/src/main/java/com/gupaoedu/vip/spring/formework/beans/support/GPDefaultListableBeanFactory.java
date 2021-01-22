@@ -1,7 +1,7 @@
 package com.gupaoedu.vip.spring.formework.beans.support;
 
 import com.gupaoedu.vip.spring.formework.beans.config.GPBeanDefinition;
-import com.gupaoedu.vip.spring.formework.context.GPAbstractApplicationContext;
+import com.gupaoedu.vip.spring.formework.context.support.GPAbstractApplicationContext;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -16,5 +16,5 @@ import java.util.concurrent.ConcurrentHashMap;
 public class GPDefaultListableBeanFactory extends GPAbstractApplicationContext {
 
     //存储注册信息的BeanDefinition
-    private final Map<String, GPBeanDefinition> beanDefinitionMap = new ConcurrentHashMap<>(256);
+    protected final Map<String, GPBeanDefinition> beanDefinitionMap = new ConcurrentHashMap<>(256);
 }
