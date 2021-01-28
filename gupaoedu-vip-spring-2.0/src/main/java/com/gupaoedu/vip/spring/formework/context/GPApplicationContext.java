@@ -4,6 +4,11 @@ package com.gupaoedu.vip.spring.formework.context;
 import com.gupaoedu.vip.spring.formework.annotation.GPAutowired;
 import com.gupaoedu.vip.spring.formework.annotation.GPController;
 import com.gupaoedu.vip.spring.formework.annotation.GPService;
+import com.gupaoedu.vip.spring.formework.aop.GPAopProxy;
+import com.gupaoedu.vip.spring.formework.aop.GPCglibAopProxy;
+import com.gupaoedu.vip.spring.formework.aop.GPJdkDynamicAopProxy;
+import com.gupaoedu.vip.spring.formework.aop.config.GPAopConfig;
+import com.gupaoedu.vip.spring.formework.aop.support.GPAdvisedSupport;
 import com.gupaoedu.vip.spring.formework.beans.config.GPBeanPostProcessor;
 import com.gupaoedu.vip.spring.formework.core.GPBeanFactory;
 import com.gupaoedu.vip.spring.formework.beans.GPBeanWrapper;
@@ -30,10 +35,11 @@ public class GPApplicationContext extends GPDefaultListableBeanFactory implement
     private String[] configLOcations;
 
     private GPBeanDefinitionReader reader;
-    // 单例的IOC容器
-    private Map<String,Object> singletonObjects = new ConcurrentHashMap<>();
+    //单例的IOC容器缓存
+    private Map<String,Object> factoryBeanObjectCache = new ConcurrentHashMap<String, Object>();
     // 普通的IOC容器
-    private Map<String,GPBeanWrapper> factoryBeanInstanceCache = new ConcurrentHashMap<>();
+    //通用的IOC容器
+    private Map<String,GPBeanWrapper> factoryBeanInstanceCache = new ConcurrentHashMap<String, GPBeanWrapper>();
 
 
     public GPApplicationContext(String ... configLOcations){
@@ -158,23 +164,51 @@ public class GPApplicationContext extends GPDefaultListableBeanFactory implement
         // 2、反射实例化 得到一个对象
         Object instance = null;
         try {
-            //假设默认就是单例，细节暂时不考虑
-            if(this.singletonObjects.containsKey(className)){
-                instance = this.singletonObjects.get(className);
-            } else {
+//            gpBeanDefinition.getFactoryBeanName()
+            //假设默认就是单例,细节暂且不考虑，先把主线拉通
+            if(this.factoryBeanObjectCache.containsKey(className)){
+                instance = this.factoryBeanObjectCache.get(className);
+            }else {
                 Class<?> clazz = Class.forName(className);
                 instance = clazz.newInstance();
-                singletonObjects.put(className,instance);
-                singletonObjects.put(gpBeanDefinition.getFactoryBeanName(),instance);
-            }
 
-        } catch (Exception e) {
+                GPAdvisedSupport config = instantionAopConfig(gpBeanDefinition);
+                config.setTargetClass(clazz);
+                config.setTarget(instance);
+
+                //符合PointCut的规则的话，闯将代理对象
+                if(config.pointCutMatch()) {
+                    instance = createProxy(config).getProxy();
+                }
+
+                this.factoryBeanObjectCache.put(className,instance);
+                this.factoryBeanObjectCache.put(gpBeanDefinition.getFactoryBeanName(),instance);
+            }
+        }catch (Exception e){
             e.printStackTrace();
         }
 
-        //4、吧BeanWrapper存户到IOC容器中
-
         return instance;
+    }
+
+    private GPAopProxy createProxy(GPAdvisedSupport config) {
+        Class<?> targetClass = config.getTargetClass();
+        if(targetClass.getInterfaces().length > 0) {
+            return new GPJdkDynamicAopProxy(config);
+        }
+        return new GPCglibAopProxy(config);
+    }
+
+    private GPAdvisedSupport instantionAopConfig(GPBeanDefinition gpBeanDefinition) {
+        GPAopConfig config = new GPAopConfig();
+        config.setPointCut(this.reader.getConfig().getProperty("pointCut"));
+        config.setAspectClass(this.reader.getConfig().getProperty("aspectClass"));
+        config.setAspectBefore(this.reader.getConfig().getProperty("aspectBefore"));
+        config.setAspectAfter(this.reader.getConfig().getProperty("aspectAfter"));
+        config.setAspectAfterThrow(this.reader.getConfig().getProperty("aspectAfterThrow"));
+        config.setAspectAfterThrowingName(this.reader.getConfig().getProperty("aspectAfterThrowingName"));
+
+        return new GPAdvisedSupport(config);
     }
 
     public String[] getBeanDefinitionNames() {

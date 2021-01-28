@@ -16,8 +16,8 @@ public class Test {
         GPApplicationContext context = new GPApplicationContext("classpath:application.properties");
         Object object = null;
         try {
-            //object = context.getBean("myAction");
-            object = context.getBean(MyAction.class);
+            object = context.getBean("myAction");
+            //object = context.getBean(MyAction.class);
         } catch (Exception e) {
             e.printStackTrace();
         }

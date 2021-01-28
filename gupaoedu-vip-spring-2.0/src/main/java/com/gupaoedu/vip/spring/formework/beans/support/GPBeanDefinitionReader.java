@@ -76,7 +76,7 @@ public class GPBeanDefinitionReader {
                 //2、自定义名字
                 //3、接口注入
                 result.add(doCreateBeanDefinition(toLowerFirstCase(beanClass.getSimpleName()),beanClass.getName()));
-                result.add(doCreateBeanDefinition(beanClass.getName(),beanClass.getName()));
+                //result.add(doCreateBeanDefinition(beanClass.getName(),beanClass.getName()));
 
                 Class<?> [] interfaces = beanClass.getInterfaces();
                 for (Class<?> i : interfaces) {
